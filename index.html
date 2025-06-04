@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DataOrigem - Insights que transformam</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #0b0c10;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(90deg, #00f260, #0575e6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeIn 1s ease-out forwards;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      animation: slideIn 1.5s ease-out forwards;
+    }
+    .cta {
+      padding: 1rem 2rem;
+      background: #0575e6;
+      border: none;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: background 0.3s ease;
+      animation: pulse 2s infinite;
+    }
+    .cta:hover {
+      background: #00f260;
+    }
+    .stats {
+      margin-top: 2rem;
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .stat {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      max-width: 200px;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes slideIn {
+      from {opacity: 0; transform: translateX(-30px);}
+      to {opacity: 1; transform: translateX(0);}
+    }
+    @keyframes pulse {
+      0% { transform: scale(1);}
+      50% { transform: scale(1.05);}
+      100% { transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Seus dados estão parados…</h1>
+  
+  <h2>
+    … enquanto seus concorrentes já decidiram crescer.  
+    Descubra como transformar dados ignorados no seu maior trunfo estratégico.  
+    Com análises claras e recomendações precisas.
+  </h2>
+
+  <button class="cta">Solicite uma Análise Gratuita</button>
+
+  <div class="stats">
+    <div class="stat">📊 75% das empresas que usam dados crescem mais rápido</div>
+    <div class="stat">🚀 Decisões baseadas em dados aumentam a eficiência em até 30%</div>
+    <div class="stat">⚡ Negócios orientados por dados são 5x mais competitivos</div>
+  </div>
+
+  <footer>
+    &copy; 2025 DataOrigem. Insights que transformam.  
+  </footer>
+
+</body>
+</html>
